@@ -1,0 +1,35 @@
+.tbl{
+    padding: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    font-size: 20px;
+    color: rgb(83, 77, 77);
+}
+.tbl a{
+    text-decoration: none;
+}
+.tbl a:hover{
+ color: red;
+ 
+    text-decoration: none;
+}
+.rt{
+     font: bold;
+     color:black;
+}
+h1{
+    text-align: center;
+}
+.ig{
+  margin: 5rem;
+ width: 500px;
+ height: 400px;   
+}
+.about{
+    font-size: 20px;
+}
+h2{
+    text-align: center;
+}

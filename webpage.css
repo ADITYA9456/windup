@@ -454,7 +454,7 @@ body, html {
   }
 
 /*==========================Responsive=============================*/
-/* @media all and (max-width: 1172px) {
+@media all and (max-width: 1172px) {
     .banner-text-item .form {
         display: flex;
         flex-flow: column;
@@ -518,6 +518,9 @@ body, html {
     }
 
     .logo {
+        display: flex;
+        justify-items: left;
+        align-items: flex-start;
         flex: 1;
         font-size: 30px;
         margin: 10px auto;
@@ -525,14 +528,11 @@ body, html {
         color: #FDE02F;
     }
 
-    .nav-bar ul {
-        display: none;
-    }
+    .menu{
+        display: grid;
+        align-items: center;
+        justify-items: center;
 
-    .nav-bar ul li {
-        flex: 1;
-        margin-bottom: 5px;
-        font-size: 14px;
     }
 
     .services {
@@ -559,6 +559,7 @@ body, html {
 
 @media all and (max-width: 1173px) {
     .banner .form {
+        width: 440px;
         background-color: transparent;
     }
 }
@@ -614,8 +615,8 @@ body, html {
     .about {
         display: flex;
         flex-flow: column wrap;
-        justify-content: center;
-        align-items: center;
+        /* justify-content: center;
+        align-items: center; */
     }
 
     .about-img {
@@ -629,8 +630,8 @@ body, html {
         text-align: center;
         display: flex;
         flex-flow: column;
-        justify-content: center;
-        align-items: center;
+        /* justify-content: center;
+        align-items: center; */
     }
 
     .about-text h2{
@@ -647,10 +648,10 @@ body, html {
     .footer{
         width: 100%;
         height: 670px;
-        position: relative;
+        /* position: relative; */
         display: flex;
         flex-flow: column wrap;
         justify-content: center;
         align-items: center;
     }
-} */
+}

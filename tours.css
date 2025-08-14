@@ -47,6 +47,38 @@
     cursor: pointer;
 }
 
+/* Responsive Design */
+@media (max-width: 1024px) {
+    .cards {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+    }
+    .card img {
+        height: 200px;
+    }
+}
+
+@media (max-width: 600px) {
+    .cards {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        grid-gap: 20px;
+    }
+    .card {
+        width: 100%;
+        font-size: 16px;
+    }
+    .card img {
+        height: 140px;
+    }
+    .places-text h2 {
+        font-size: 32px;
+    }
+    .places-text small {
+        font-size: 12px;
+    }
+}
+
 .cards .text {
     padding: 20px;
     font-family: Barlow Condensed;

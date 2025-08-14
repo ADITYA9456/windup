@@ -58,6 +58,48 @@ body, html {
      padding: .5rem;
      margin: 1rem;
     color:midnightblue;
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+    .nav-bar {
+        flex-direction: column;
+        height: auto;
+        padding: 10px 0;
+    }
+    .logo {
+        font-size: 32px;
+        margin-left: 0;
+        padding: 10px;
+    }
+    .menu {
+        margin: 0.5rem;
+        padding: 0.5rem;
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 600px) {
+    .nav-bar {
+        flex-direction: column;
+        height: auto;
+        padding: 5px 0;
+    }
+    .logo {
+        font-size: 24px;
+        margin-left: 0;
+        padding: 5px;
+    }
+    .menu {
+        margin: 0.2rem;
+        padding: 0.2rem;
+        font-size: 16px;
+        text-align: center;
+    }
+    body, html {
+        font-size: 16px;
+    }
+}
     border-radius: .4rem;
     box-shadow: 2px 2px 5px black;
 }
